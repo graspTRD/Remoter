@@ -1,0 +1,13 @@
+[Dd]ebug*/
+ipch*/
+GeneratedFiles*/
+*.ilk
+*.pdb
+*.opensdf
+*.sdf
+
+*.dll
+*.exe
+*.suo
+[Rr]elease*/
+[Bb]in*/
