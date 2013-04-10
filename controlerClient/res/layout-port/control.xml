@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/repeat_bg"
+    android:padding="2dp" >
+
+	<LinearLayout 
+	    android:id="@+id/touchLayout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical">
+	    <LinearLayout
+    	android:id="@+id/clickLayout"
+    	android:layout_width="fill_parent"
+    	android:layout_height="80dp"
+    	android:orientation="horizontal" >
+    	<view
+        	android:id="@+id/leftClickView"
+        	android:layout_width="0dp"
+        	android:layout_height="fill_parent"
+        	android:layout_weight="4"
+        	android:layout_marginRight="3dp"
+        	android:background="@drawable/left_style"
+        	class="com.pccontroler.view.ClickView"/>
+		<view
+        	android:id="@+id/rightClickView"
+        	android:layout_width="0dp"
+        	android:layout_height="fill_parent"
+        	android:layout_weight="4"
+        	android:layout_marginLeft="3dp"
+        	android:background="@drawable/right_style"
+        	class="com.pccontroler.view.ClickView" />
+	</LinearLayout>
+	<view
+	    android:id="@+id/controlView"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_marginTop="4dp"
+	    android:background="@drawable/touchbg"
+	    class="com.pccontroler.view.ControlView" />
+	</LinearLayout>
+    
+
+	<view
+	    android:id="@+id/middleClickView"
+	    android:layout_width="50dp"
+	    android:layout_height="118dp"
+	    android:layout_marginTop="10dp"
+	    android:layout_gravity="center_horizontal"
+	    class="com.pccontroler.view.ClickView"
+	    android:background="@drawable/middle_style" />
+	
+	<com.pccontroler.view.KeyboardView
+	    android:id="@+id/keyboardView1"
+	    android:layout_width="70dp"
+	    android:layout_height="70dp"
+	    android:layout_gravity="bottom|right"
+	    class="com.pccontroler.view.KeyboardView"
+	    android:background="@drawable/keyboard_style" />
+
+</FrameLayout>

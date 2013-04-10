@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string
+		name="app_name">手机遥控</string>
+	<string
+		name="text_keyboard">键盘</string>
+	<string
+		name="text_settings">设置</string>
+	<string
+		name="text_get_server">Get server</string>
+	<string
+		name="text_help">帮助</string>
+	<string
+		name="text_file_explorer">File explorer</string>
+	<string
+		name="text_refresh">刷新</string>
+	<string
+		name="text_explore_roots">Explore root(s)</string>
+	<string
+		name="text_help_description">Description :</string>
+	<string
+		name="text_help_usage">Usage :</string>
+	<string
+		name="text_help_install">Install :</string>
+	<string
+		name="text_help_contact">Contact :</string>
+	<string
+		name="text_help_description_content">Use your phone as a remote control device for your computer over Wifi and Bluetooth !\n\nMain features :\n - Mouse control (move, click and wheel)\n - Keyboard control\n - File explorer (view directories and launch files)\n - Secure (password) connection\n - Screen capture (but it is NOT a VNC viewer)\n</string>
+	<string
+		name="text_help_install_content">Download the server on :\n</string>
+	<string
+		name="text_help_usage_content">Press, drag and hold the screen to move the mouse.\n\nTo click, just press briefly the screen.\n\nTo hold your click, press and hold the screen (do not move!).\nAfter the vibration, you can move.\nTo release your click, do a simple click.\n\nManual click buttons are available around the screen.\nHold a button one second, and it will stay pressed.\n\nTo use the mouse wheel, slide the right part of the screen (up and down).\n</string>
+	<string
+		name="text_help_contact_content"></string>
+	<string
+		name="text_connection">连接</string>
+	<string
+		name="text_connections">连接列表</string>
+	<string
+		name="text_control">控制</string>
+	<string
+		name="text_advanced_control">Advanced control</string>
+	<string
+		name="text_sensitivity">Sensitivity</string>
+	<string
+		name="text_acceleration">Acceleration</string>
+	<string
+		name="text_buttons_size">Buttons size</string>
+	<string
+		name="text_wheel_bar_width">Wheel bar width</string>
+	<string
+		name="text_click_delay">Click delay</string>
+	<string
+		name="text_hold_delay">Hold delay</string>
+	<string
+		name="text_immobile_distance">Immobile distance</string>
+	<string
+		name="text_feedback">Feedback</string>
+	<string
+		name="text_sound">声音</string>
+	<string
+		name="text_vibration">Vibration</string>
+	<string
+		name="text_screen_capture">Screen capture</string>
+	<string
+		name="text_advanced_screen_capture">Advanced screen capture</string>
+	<string
+		name="text_capture_enabled">Capture enabled</string>
+	<string
+		name="text_capture_format">Capture format</string>
+	<string-array
+		name="screenCapture_format_id">
+		<item>jpg</item>
+		<item>png</item>
+	</string-array>
+	<string-array
+		name="screenCapture_format_name">
+		<item>JPG</item>
+		<item>PNG</item>
+	</string-array>
+	<string
+		name="text_cursor_enabled">Cursor enabled</string>
+	<string
+		name="text_cursor_size">Cursor size</string>
+	<string
+		name="text_miscellaneous">Miscellaneous</string>
+	<string
+		name="text_fullscreen">Fullscreen</string>
+	<string
+		name="text_keep_screen_on">Keep screen on</string>
+	<string
+		name="text_debug">Debug</string>
+	<string
+		name="text_first_run">第一次运行</string>
+	<string
+		name="text_reset_preferences">重置参数</string>
+	<string
+		name="text_connection_established">连接已建立</string>
+	<string
+		name="text_connection_closed">连接已关闭</string>
+	<string
+		name="text_connection_refused">连接失败</string>
+	<string
+		name="text_illegal_connection_parameter">非法的参数</string>
+	<string
+		name="text_authentificated">验证成功</string>
+	<string
+		name="text_not_authentificated">密码验证失败</string>
+	<string
+		name="text_bluetooth_not_available_version">Bluetooth is not available on your phone (only Android 2.0+)</string>
+	<string
+		name="text_bluetooth_not_available">Bluetooth is not available</string>
+	<string
+		name="text_bluetooth_not_enabled">Bluetooth is not enabled</string>
+	<string
+		name="text_bluetooth_remote_device_not_found">Remote bluetooth device not found</string>
+	<string
+		name="text_bluetooth_can_not_connect">Can not connect to remote bluetooth device</string>
+	<string
+		name="text_first_run_dialog">It is the first time you launch PCControler.\nDo you want to read the help?</string>
+	<string
+		name="text_new_version_dialog">It is a new version of PCControler.\nYou should download the server again on :\n</string>
+	<string
+		name="text_no_connection">No connection\nPress the \"Menu\" button to add a new one</string>
+	<string
+		name="text_no_connection_selected">No connection selected\nPress the \"Menu\" button\nSelect \"Connections\"</string>
+	<string
+		name="text_bluetooth_discovery_started">Bluetooth discovery started</string>
+	<string
+		name="text_bluetooth_discovery_finished">Bluetooth discovery finished</string>
+	<string
+		name="text_bluetooth_device_not_paired">Bluetooth device not paired\nYou should pair it manually</string>
+	<string
+		name="text_yes">Yes</string>
+	<string
+		name="text_no">取消</string>
+	<string
+		name="text_ok">确定</string>
+	<string
+		name="text_new">新建</string>
+	<string 
+	    name="text_edit">编辑</string>
+	<string
+		name="text_connection_type">连接类型</string>
+	<string-array
+		name="connection_action_name">
+		<item>连接</item>
+		<item>编辑</item>
+		<item>删除</item>
+	</string-array>
+	<string
+		name="text_wifi">无线wifi</string>
+	<string
+		name="text_bluetooth">Bluetooth</string>
+	<string
+		name="text_bluetooth_devices">Bluetooth devices</string>
+	<string
+		name="text_name">名称 : </string>
+	<string
+		name="text_password">密码 : </string>
+	<string
+		name="text_host">ip地址 : </string>
+	<string
+		name="text_port">端口 : </string>
+	<string
+		name="text_address">地址 : </string>
+	<string
+		name="text_save">保存</string>
+	<string
+		name="text_new_connection">新连接</string>
+	<string
+		name="text_hint_host">192.168.0.1</string>
+</resources>

@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingTop="20dp"
+    android:background="@drawable/listbg">
+
+	<ImageView
+		android:id="@+id/icon"
+		android:layout_width="35dip"
+		android:layout_height="35dip" 
+		android:layout_marginLeft="20dp"
+	/>
+
+	<TextView
+	    android:id="@+id/name"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_marginLeft="20dp"
+	    android:textSize="25sp" />
+
+</LinearLayout>

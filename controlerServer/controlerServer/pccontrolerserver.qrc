@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/Controler">
+        <file>Resources/pccontroler.ico</file>
+        <file>Resources/pccontroler.png</file>
+        <file>Resources/window.png</file>
+        <file>Resources/cancel.png</file>
+    </qresource>
+</RCC>
